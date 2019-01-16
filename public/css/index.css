@@ -1,0 +1,32 @@
+body {
+    background: url(images/overlay.png), url(download.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 16em 0em 14em;
+    text-align: center;
+}
+h1,h2{
+    color:#006400;
+}
+#inputfield{
+    padding: 30px 30px 30px 30px;
+    width:400px;
+    text-align: center;
+    font-size: 20px;
+    color: #006400;
+}
+fieldset {
+    border: 0;
+}
+ul{
+  padding-top: 50px;
+  list-style: none;
+  font-size: 20px;
+}
+p{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}

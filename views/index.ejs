@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>VR</title>
+    <link rel="stylesheet" href="/css/index.css">
+  </head>
+  <body>
+    <h1>Welome to the Workshop</h1>
+    <h2>We will be using this interface for learning purposes.</h2>
+
+    <fieldset>
+          <form class="" action="/" method="post">
+            <input id= "inputfield" type="text" class="input" name="chat" placeholder="Try me! WATSON UP?">
+            <% if(val !== null){ %>
+              <p><span>WATSON recognized:</span><%= val %></p>
+            <% } %>
+            <% if(val2 !== null){ %>
+              <p><span>With a certainty level of:</span><%= val2 %></p>
+            <% } %>
+          </form>
+        </fieldset>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
